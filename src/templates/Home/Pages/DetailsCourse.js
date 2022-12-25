@@ -22,7 +22,7 @@ export default function DetailsCourse(props) {
 
   useEffect(() => {
     let { id } = props.match.params;
-    //get detail url
+    //get detail
     dispatch(getDetailsCoursesAction(id));
     dispatch(getCateCoursesAction);
     dispatch(getCoursesAction);
@@ -104,8 +104,6 @@ export default function DetailsCourse(props) {
           </h1>
           <img src={courseDetail?.hinhAnh} />
         </div>
-        {/* <VideoCoursesDetail /> */}
-        
         <div className=" mx-3 mt-8 lg:mt-24 grid lg:grid-flow-col lg:grid-cols-12 gap-4">
           <div className="img_collegeLevel_home col-span-12 lg:col-span-9">
             <h2 className="font-body text-2xl lg:text-5xl mb-3 lg:mb-10 font-bold leading-tight">
@@ -131,7 +129,6 @@ export default function DetailsCourse(props) {
                   {courseDetail?.nguoiTao?.hoTen}
                 </p>
                 <div className="block"
-                //  style={{padding: "5px 0 15px 0"}}
                 >
                   <RatingsDetailsCourse />
                 </div>

@@ -1,6 +1,5 @@
 import React, { Fragment, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import LazyLoad from "react-lazyload";
 import "./Style/footer.css";
 import { getCateCoursesAction } from "../../../redux/actions/coursesActions";
 import { Link } from "react-router-dom";
@@ -101,7 +100,7 @@ export default function Footer() {
               </div>
               <div className="flex justify-start space-x-2">
                 <a
-                  href="#"
+                  href="#!"
                   title="Facebook"
                   className="flex items-center p-1"
                 >
@@ -115,7 +114,7 @@ export default function Footer() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="#!"
                   title="Instagram"
                   className="flex items-center p-1"
                 >
@@ -129,7 +128,7 @@ export default function Footer() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="#!"
                   title="Github"
                   className="flex items-center p-1"
                 >
@@ -148,7 +147,7 @@ export default function Footer() {
         </div>
         <div className="footer_copyright py-6 text-sm text-center dark:text-coolGray-400">
           © 2022-Copyright  -
-          <a href="#">Trang chủ</a>
+          <a href="#!">Trang chủ</a>
         </div>
       </footer>
     </Fragment>

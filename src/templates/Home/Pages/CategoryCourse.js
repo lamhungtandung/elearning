@@ -1,5 +1,4 @@
 import React, { Fragment, useEffect } from "react";
-// import LazyLoad from "react-lazyload";
 import { useDispatch, useSelector } from "react-redux";
 import { getCoursesByCateActions } from "../../../redux/actions/coursesActions";
 
@@ -11,9 +10,7 @@ export default function CategoryCourse(props) {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    //get detail url
     let { slug } = props.match.params;
-    // console.log({id})
     dispatch(getCoursesByCateActions(slug));
   }, []);
 

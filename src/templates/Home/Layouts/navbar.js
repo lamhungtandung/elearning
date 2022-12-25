@@ -140,7 +140,6 @@ export default function Navbar({ toggle }) {
       <nav className="ml-3 sm:ml-5 flex justify-between items-center w-full bg-white text-black font-medium">
         <div className="lg:flex-none">
           <NavLink to="/">
-            {/* <h1 style={{fontSize:30}} >E-LEARNING</h1> */}
             <img src="https://i.imgur.com/lC22izJ.png" alt="logo"></img>
           </NavLink>
         </div>

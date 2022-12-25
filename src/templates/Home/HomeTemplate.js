@@ -30,7 +30,6 @@ export default function HomeTemplate (props){
     <Route
       {...restProps}
       render={(propsRoute) => {
-        //props.location, props.history, props.match
         return (
           <Fragment>
             <Navbar toggle={toggle} {...propsRoute} />

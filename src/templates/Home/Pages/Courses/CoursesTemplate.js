@@ -30,7 +30,7 @@ export default function CoursesTemplate (props){
     <Route
       {...restProps}
       render={(propsRoute) => {
-        //props.location, props.history, props.match
+        //props.location
         return (
           <Fragment>
             <Navbar toggle={toggle} {...propsRoute} />

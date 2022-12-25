@@ -3,7 +3,6 @@ import { Route } from "react-router";
 import Navbar from "../Home/Layouts/navbar";
 import Footer from "../Home/Layouts/footer";
 import SubMenuDropdown from "../Home/Components/Home/subMenuDropdown";
-import LogoModal from "../../components/Loading/LogoModal/LogoModal";
 import "./../Home/Pages/Style/StylePages.css";
 
 export default function UserTemplate(props) {
@@ -32,7 +31,6 @@ export default function UserTemplate(props) {
     <Route
       {...restProps}
       render={(propsRoute) => {
-        //props.location, props.history, props.match
         return (
           <Fragment>
             <Navbar toggle={toggle} {...propsRoute} />

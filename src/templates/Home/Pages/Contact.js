@@ -3,15 +3,6 @@ import React from "react";
 export default function Contact() {
   return (
     <div className="relative bg-white ">
-    {/* <div className="lg:absolute lg:inset-0">
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <img
-          className="h-24 w-full object-cover lg:absolute lg:h-full"
-          src="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
-          alt=""
-        />
-      </div>
-    </div> */}
     <div className="relative py-16 px-4 sm:py-24 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:py-32 lg:grid lg:grid-cols-2 ">
       <div className="lg:pr-8">
         <div className="max-w-md mx-auto sm:max-w-lg lg:mx-0">
@@ -47,20 +38,6 @@ export default function Contact() {
                 />
               </div>
             </div>
-            {/* <div className="sm:col-span-2">
-              <label htmlFor="company" className="block text-sm font-medium text-gray-700">
-                
-              </label>
-              <div className="mt-1">
-                <input
-                  type="text"
-                  name="company"
-                  id="company"
-                  autoComplete="organization"
-                  className="block w-full shadow-sm sm:text-sm focus:ring-red-500 focus:border-red-500 border-gray-300 rounded-md"
-                />
-              </div>
-            </div> */}
             <div className="sm:col-span-2">
               <div className="flex justify-between">
                 <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
